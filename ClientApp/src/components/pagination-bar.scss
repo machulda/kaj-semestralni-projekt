@@ -1,0 +1,35 @@
+﻿body {
+    .pagination {
+        display: flex;
+        justify-content: space-between;
+
+        button {
+            padding: 6px 13px;
+            border: 1px solid rgba(0,0,0,0.13);
+            background: #f3f3f3;
+            border-radius: 0;
+            outline: none;
+        }
+
+        button:disabled:hover {
+            background: #f3f3f3;
+        }
+
+        button:hover {
+            background: #f8f8f8;
+        }
+
+        button:active {
+            background: #e6e6e6;
+        }
+
+        .pagination-description {
+            font-weight: 400;
+            margin: 5px;
+        }
+
+        .select2-container {
+            margin-left: 10px;
+        }
+    }
+}

@@ -1,0 +1,171 @@
+﻿body {
+    #header {
+        background: #4d7496;
+        color: white;
+        border-bottom: 4px solid #2a4052;
+
+        .left {
+            display: flex;
+            flex-direction: row;
+
+            .anchor {
+                padding: 14px;
+            }
+        }
+
+        .title {
+            border-width: 0 1px;
+            border-color: rgba(0, 0, 0, 0.2);
+            border-style: solid;
+        }
+
+        a, .anchor, .title {
+            background: none;
+            color: #ffffff;
+            font-size: 13px;
+            text-shadow: 0 1px 0 #000000;
+            box-shadow: none;
+            padding: 14px 18px;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        a, .anchor {
+            cursor: pointer;
+            outline: none;
+            border: 0;
+        }
+
+        a:hover, .anchor:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        a:active, .anchor:active {
+            background: #334d63;
+        }
+
+        .app-version {
+            background: none;
+            border: none;
+            outline: none;
+            color: #ffffff;
+            padding: 0;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 48px;
+        }
+
+        .navbar {
+            padding: 0 20px;
+
+            .navbar-brand {
+                padding: 0;
+                margin: 0;
+                background: none;
+
+                span {
+                    margin: 0 5px;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 48px;
+                }
+            }
+
+            ul {
+                margin: 0;
+
+                li {
+                    display: inline-block;
+                    border-right: 1px solid rgba(0, 0, 0, 0.2);
+                    line-height: 28px;
+
+                    i {
+                        margin-right: 5px;
+                    }
+
+                    .dropdown-menu {
+                        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+                    }
+
+                    .dropdown-item {
+                        text-shadow: none;
+                        display: block;
+                        color: #333333;
+                        font-size: 13px;
+                        padding: 3px 20px;
+                        margin: 0;
+                        text-decoration: none;
+                        outline: none;
+                        line-height: 20.8px;
+                    }
+
+                    .dropdown-item:hover, .dropdown-item:active {
+                        color: white;
+                        background: #4d7496;
+                    }
+
+                    .username {
+                        font-weight: bold;
+                    }
+                }
+
+                li:first-child {
+                    border-left: 1px solid rgba(0, 0, 0, 0.2);
+                }
+            }
+        }
+    }
+
+    .tooltip {
+
+        .tooltip-inner {
+            border-radius: 0;
+            font-size: 12px;
+            line-height: 1.4;
+            padding: 3px 8px;
+        }
+    }
+
+    .modal-dialog {
+        .modal-title {
+            span {
+                font-size: 15px;
+                font-weight: 600;
+                display: block;
+            }
+        }
+
+        .modal-body {
+            p {
+                margin: 0;
+            }
+
+            p:nth-child(even) {
+                margin-bottom: 5px;
+            }
+        }
+
+        .modal-header, .modal-footer {
+            background: #f9f9f9;
+        }
+
+        .modal-footer {
+            button {
+                border-radius: 0;
+                outline: none;
+                padding: 6px 13px;
+                background-color: #3968c6;
+                color: #ffffff;
+                border: 1px solid rgba(0, 0, 0, 0.13);
+            }
+
+            button:hover {
+                background-color: #4d77cc;
+            }
+
+            button:active {
+                background-color: #335eb2;
+            }
+        }
+    }
+}

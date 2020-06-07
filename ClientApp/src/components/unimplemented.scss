@@ -1,0 +1,57 @@
+﻿body {
+    #unimplemented {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        h1 {
+            color: #e25856;
+            font-size: 70px;
+        }
+
+        table {
+            margin: auto;
+            max-width: 500px;
+
+            thead {
+                border-bottom: 2px solid #ddd;
+            }
+
+            tr {
+                border: 1px solid #ddd;
+
+                th {
+                    text-align: center;
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    font-size: 11px;
+                    background-color: #f9f9f9;
+                    padding: 10px 15px;
+                }
+
+                td {
+                    button {
+                        padding: 10px 15px;
+                        background: none;
+                        display: flex;
+                        justify-content: space-between;
+                        border: none;
+                        width: 100%;
+                        height: auto;
+                        outline: none;
+                    }
+
+                    button:hover {
+                        background: #f5f5f5;
+                    }
+                }
+            }
+        }
+
+        i {
+            margin-right: 5px;
+        }
+    }
+}

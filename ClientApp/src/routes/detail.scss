@@ -1,0 +1,111 @@
+﻿body {
+    #detail-view {
+
+        .entity-data {
+            background: #f9f9f9;
+            border-bottom: 1px solid #d9d9d9;
+            padding: 25px 5px 0;
+            margin-bottom: 25px;
+
+            form {
+                flex-direction: row;
+
+                label {
+                    display: inline-flex;
+                    flex-direction: column;
+                    padding: 0 15px;
+                    color: #adadad;
+
+                    span {
+                        margin-top: 5px;
+                        margin-bottom: 10px;
+                    }
+
+                    input {
+                        height: 32px;
+                        width: 100%;
+                        padding: 6px;
+                        border: 1px solid #ccc;
+                        -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+                        box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+                        outline: none;
+                    }
+
+                    input:focus {
+                        border-color: #4d7496;
+                        box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 3px rgba(0, 0, 0, 0.1);
+                        outline: none;
+                    }
+                }
+            }
+        }
+
+        .relations {
+
+            .relation {
+
+                .header {
+                    font-size: 14px;
+                    font-weight: bold;
+                    margin: 5px 25px 0;
+                    display: flex;
+                    justify-content: space-between;
+                    background: #f9f9f9;
+                    border: 1px solid #dddddd;
+                    padding-left: 12px;
+
+                    span {
+                        margin-top: auto;
+                        margin-bottom: auto;
+
+                        i {
+                            margin-right: 5px;
+                        }
+                    }
+
+                    .controls {
+                        line-height: 35px;
+
+                        button {
+                            background: #f3f3f3;
+                            outline: none;
+                            border: 1px solid rgba(0, 0, 0, 0.13);
+                            padding: 0;
+                            margin: -1px;
+
+                            i {
+                                padding: 0 10px;
+                            }
+                        }
+
+                        button:hover {
+                            background: #f8f8f8;
+                        }
+
+                        button:active {
+                            background: #e6e6e6;
+                        }
+                    }
+                }
+
+                table {
+                    box-sizing: content-box;
+                    width: calc( 100% - 50px );
+
+                    button.remove-relation {
+                        outline: none;
+                        background: none;
+                        border: none;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+
+        .alert{
+            margin: 0px;
+            border-radius: 0px;
+            min-height: 44px;
+        }
+    }
+}
